@@ -14,6 +14,7 @@ Coding problems collection
         ├── test/
         │   ├── test.js
         │   └── {other files}
+        ├── .codeprob_info.json
         ├── README.md
         ├── package.json
         └── {other files}
@@ -23,6 +24,7 @@ Files for each problem:
 
 - `package.json` contains scripts for local testing, for example with `npm run test`
 - `README.md` contains problem details and submission instructions
+- `.codeprob_info.json` contains metadata for problem submission required by codeprobs_cli
 
 ## EXTREME CAUTION
 
